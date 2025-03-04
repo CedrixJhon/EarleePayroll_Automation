@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class Signup {
+	
 	@Test
     public void signup() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
